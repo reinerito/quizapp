@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+      }
+      .card {
+        background: white;
+        padding: 20px;
+        margin: 10px 0;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+      }
+      .bookmark {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      footer {
+        margin-top: 20px;
+        padding: 10px;
+        background: white;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quiz App</h1>
+
+      <div class="card">
+        <span class="bookmark"><img src="./assets/bookmark_icon.svg" /></span>
+        <p>What is the capital of France?</p>
+        <button>Show Answer</button>
+      </div>
+
+      <div class="card">
+        <span class="bookmark"><img src="./assets/bookmark_icon.svg" /></span>
+        <p>Who wrote 'To Kill a Mockingbird'?</p>
+        <button>Show Answer</button>
+      </div>
+
+      <div class="card">
+        <span class="bookmark"><img src="./assets/bookmark_icon.svg" /></span>
+        <p>What is the largest planet in our solar system?</p>
+        <button>Show Answer</button>
+      </div>
+    </div>
+
+    <footer>
+      <span>&#127891;</span>
+      <span
+        >&#128214;
+        <a href="Bookmarkpage.html"></a>
+      </span>
+      <span>&#128218;</span>
+    </footer>
+  </body>
+</html>
